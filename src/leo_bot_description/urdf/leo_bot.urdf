@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="leo_bot">
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.2 0.15 0.05"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="imu_link"/>
+
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+  </joint>
+
+</robot>

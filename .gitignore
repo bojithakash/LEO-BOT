@@ -1,0 +1,22 @@
+# ROS2 build folders
+build/
+install/
+log/
+
+# Colcon
+*.pyc
+__pycache__/
+
+# VS Code
+.vscode/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Temporary files
+*.swp
+*.swo
+*~
